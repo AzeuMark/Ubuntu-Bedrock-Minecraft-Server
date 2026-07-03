@@ -4,6 +4,7 @@
 >
 > This guide deploys the **Bedrock Server Control Panel** from the GitHub repo onto a fresh Ubuntu 20.04+ VPS. After this is done, you'll open a website in your browser and control your Minecraft Bedrock server with buttons — no more SSH commands for day-to-day use.
 
+<<<<<<< HEAD
 > ### ⚡ Prefer one command instead of 13 steps?
 > There's an interactive installer at **`docs/install.sh`** that does this whole guide for you. It asks 3 questions (your username, your panel password, optional Bedrock URL) and then installs, builds, configures, and starts everything automatically:
 > ```bash
@@ -15,6 +16,8 @@
 > ```
 > Re-running it is safe (idempotent). The step-by-step guide below is the manual reference; the script automates it.
 
+=======
+>>>>>>> 5367b57 (Added Deployment guide)
 ---
 
 ## ⚠️ Before you start — read this
