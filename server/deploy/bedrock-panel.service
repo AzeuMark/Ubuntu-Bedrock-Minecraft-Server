@@ -1,0 +1,17 @@
+[Unit]
+Description=Bedrock Server Control Panel (backend)
+Documentation=https://github.com/Azeu-Minecraft/Ubunto-Minecraft-Server-2
+After=network.target
+
+[Service]
+Type=simple
+User=bedrock-panel
+Group=bedrock-panel
+WorkingDirectory=/opt/bedrock-panel/server
+EnvironmentFile=/opt/bedrock-panel/server/.env
+ExecStart=/usr/bin/node /opt/bedrock-panel/server/src/index.js
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

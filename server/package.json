@@ -1,0 +1,21 @@
+{
+  "name": "bedrock-panel-server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend API for the Bedrock Server Control Panel (mini-Wings).",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.18",
+    "archiver": "^8.0.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "multer": "^2.2.0"
+  }
+}
